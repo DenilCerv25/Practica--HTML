@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Questrial&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	background-color: #BCE9EB;
+}
+
+.contenedor{
+  width: 100%;
+  margin: auto;
+}
+
+header{
+    width: 100%;
+    height: 280px;
+    background-color: #BCE9EB;
+}
+
+.logo{
+    padding: 15px 0;
+}
+.logo img{
+    display: block;
+  margin: auto;
+}
+
+.menu-princ{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+  max-width: 250px;
+  margin: auto;
+}
+
+.menu-princ a{
+    text-decoration: none;
+    color: #004AAD;
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu-princ a:hover{
+  color:#ffffff;
+}
+
+h1{
+    font-family: 'Questrial', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #004AAD;
+}  
+
+h2{
+    font-family: 'Questrial', sans-serif;
+    font-size: 24px;
+    color: #004AAD;
+}
+
+p{
+    font-family: 'Questrial', sans-serif;
+    font-size: 22px;
+    color: #60068B;
+}
+
+label{
+    font-family: 'Questrial', sans-serif;
+    font-size: 22px;
+    color: #60068B;
+}
+
+.titulo-pedido{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contenedor-pastel, .contenedor-tamaño, .contenedor-adornos, .contenedor-descripcion{
+    width: 35%;
+    text-align: left;
+    margin: auto;
+}
+
+
+.contenedor-pastel label{
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    color: #004AAD;
+}
+
+.caja-select{
+    font-family: 'Questrial', sans-serif;
+  color: #004AAD;
+  font-size: 20px;
+  padding: 5px;
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #004AAD;
+    border-radius: 7px;
+}
+
+.contenedor-adornos label{
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    color: #004AAD;
+}
+
+.contenedor-descripcion textarea{
+    width: 100%;
+    font-family: 'Questrial', sans-serif;
+    color: #004AAD;
+    font-size: 18px;
+    padding: 10px;
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #004AAD;
+    border-radius: 7px;
+}
+
+.contenedor-descripcion input{
+    width: 100%;
+    font-family: 'Questrial', sans-serif;
+    color: #004AAD;
+    font-size: 18px;
+    padding: 10px;
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #004AAD;
+    border-radius: 7px;
+}
+
+.boton{
+  display: flex;
+    justify-content: center;
+  align-items: center;
+      margin-bottom: 30px;
+
+}
+
+.boton-pers{
+  font-family: 'Questrial', sans-serif;
+  color: white;
+  font-size: 22px;
+  padding: 10px;
+    background-color: #004AAD;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.boton-pers:hover{
+  background-color: #D383EB;
+  color: white;
+      border-color: #D383EB;
+
+}
+
+footer{
+  background-color: #D383EB;
+
+}
+.contenedor7{
+  display: block;
+  width: 100%;
+  margin: auto;
+  padding: 15px;
+}
+
+.contenedor7 h2{
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    font-size: 30px;
+    color: #BCE9EB;
+}
+
+.contenedor7 h3{
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    font-size: 22px;
+    color: #BCE9EB;
+}
+
+.contenedor7 p{
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+

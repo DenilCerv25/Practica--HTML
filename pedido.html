@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/estilos_2.css">
+
+	<title>Pedido</title>
+</head>
+<body>
+	<header>
+		<div class="contenedor">
+			<div class="logo">
+				<a href="index.html"><img src="imagenes/logo_pasteleria.png" alt="logo-pasteleria" width="200px" height="200px" class="img-logo"></a>
+			</div>
+			<nav class="menu-princ">
+				<a href="pedido.html">Realizar pedido</a>
+				<a href="pastelero.html">Pastelero</a>
+			</nav>
+		</div>
+	</header>
+
+	<div class="titulo-pedido">
+		<h1>Pedido</h1><br>
+		<h2>Realiza tu pedido de pastel llenando este formulario.</h2><br>
+		<h2>Puedes combinar sabores o adornos.</h2>
+	</div>
+
+	<section>
+		<form action="">
+		<div class="contenedor-pastel">
+			<p>¿Qué sabor de pastel quieres?</p>
+			<input type="checkbox" id="TreslechesNumber" value="Tres_leches">
+			<label for="Tres_leches" class="letra-label">Tres leches</label>
+			<br>
+			<input type="checkbox" id="ChocolateNumber" value="Chocolate">
+			<label for="Chocolate">Chocolate</label>
+			<br>
+			<input type="checkbox" id="FresaNumber" value="Fresa">
+			<label for="Fresa">Fresa</label>
+			<br>
+			<input type="checkbox" id="MilhojasNumber" value="Mil_hojas">
+			<label for="Mil_hojas">Mil hojas</label>
+			<br>
+			<input type="checkbox" id="VainillaNumber" value="Vainilla">
+			<label for="Vainilla">Vainilla</label>
+			<br>
+			<input type="checkbox" id="CajetaNumber" value="Cajeta">
+			<label for="Cajeta">Cajeta</label>
+		</div>
+
+        <br>
+
+        <div class="contenedor-tamaño">
+        	<p>¿De qué tamaño lo quieres?</p>
+			<select name="" id="" class="caja-select">
+			<option value="Pequeño">Pequeño</option>
+			<option value="Mediano">Mediano</option>
+			<option value="Grande">Grande</option>
+			</select>
+        </div>
+            
+        <br>
+
+		<div class="contenedor-adornos">
+			<p>¿Qué adornos quiere agregarle al pastel?</p>
+				<input type="checkbox" id="FresasNumber" value="Fresas">
+				<label for="Fresas">Fresas</label>
+				<br>
+				<input type="checkbox" id="MangosNumber" value="Mangos">
+				<label for="Mangos">Mangos</label>
+				<br>
+				<input type="checkbox" id="ZarzamorasNumber" value="Zarzamorass">
+				<label for="Zarzamoras">Zarzamoras</label>
+				<br>
+				<input type="checkbox" id="ChocolatesNumber" value="Chocolates">
+				<label for="Chocolates">Chocolates</label>
+				<br>
+				<input type="checkbox" id="NuecesNumber" value="Nueces">
+				<label for="Nueces">Nueces</label>
+				<br>
+				<input type="checkbox" id="ChispaschocolateNumber" value="Chispas_chocolate">
+				<label for="Chispas_chocolate">Chispas de chocolate</label>
+				<br>
+				<input type="checkbox" id="ChispascoloresNumber" value="Chispas_colores">
+				<label for="Chispas_colores">Chispas de colores</label>
+				<br>
+				<input type="checkbox" id="GomitasNumber" value="Gomitas">
+				<label for="Gomitas">Gomitas</label>
+		</div>
+
+		<br>
+
+		<div class="contenedor-descripcion">
+			<label for="Descripcion">Descripción general del pastel:</label><br>
+		    <textarea type="text" id="Descripcion" name="Descripcion" placeholder="Agrega una descripción adicional al pastel" cols="30" rows="10"></textarea>
+		    <br><br>
+			<label for="Nombre">Nombre:</label>
+			<br>
+			<input type="text" id="Nombre" name="Nombre" placeholder="Ingresa tu nombre">
+			<br><br>
+			<label for="Telefono">Teléfono:</label>
+			<br>
+			<input type="text" id="Telefono" name="Telefono" placeholder="Ingresa tu numero telefonico">
+			<br><br>
+			 <label for="Email">Correo electrónico:</label>
+			 <br>
+			<input type="text" id="Email" name="Email" placeholder="Ingresa tu e-mail">
+			</div>
+			<br><br>
+		<div class="boton">
+			<a href="#"><button type="submit" class="boton-pers">Enviar tu pedido</button></a>
+		</div>
+		</form>
+		
+	</section>
+
+	<footer>
+		<div class="contenedor7">
+			<h2>Dev's Cakes</h2>
+			<br>
+			<h3>Dirección</h3>
+			<p>Av. resurrección No. 5</p>
+			<br>
+			<h3>Teléfono</h3>
+			<p>55 36 65 78 46</p>
+			<br>
+			<h3>Horarios</h3>
+			<p>Lunes a viernes de 9 am - 9 pm</p>
+			<p>Sabados de 9 am - 6 pm</p>
+		</div>
+	</footer>
+
+</body>
+</html>
